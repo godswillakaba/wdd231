@@ -156,9 +156,8 @@ h2 {
 
 #course-container div {
     padding: 1rem;
-    background-color: #3d4143;
-    border-radius: 10px;
-    color: #ffffff;
+    background-color: #93969a;
+    color: #000;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     transition: tranform 0.2s ease;
     text-align: center;
