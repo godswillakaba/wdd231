@@ -1,12 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Godswill Akaba | Student Home Page</title>
+    <meta name="description" content="Personal home page of Godswill Akaba featuring information about me, my studies, and web development courses.">
+    <meta name="author" content="Godswill Akaba">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large-screen.css">
+    <link rel="stylesheet" href="styles/small-screen.css">
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h2>GODSWILL AKABA</h2>
+    <header>
+        <img src="images/logo.svg" alt="site logo" width="70" height="70">
+        <span>Godswill Akaba</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation">
+        ☰
+        </button>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chamber Project</a></li>
+                <li><a href="#">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+        <section id="about-section">
+            <h2>About Me</h2>
+            <p>My name is Godswill Akaba, and I am from Ghana. I am a software development student 
+                with a strong interest in web development and data-driven solutions. I am currently 
+                building my skills in HTML, CSS, and JavaScript through my WDD231 course, focusing 
+                on creating responsive and user-friendly web applications.
+            </p> 
+
+            <p>I also served as a full-time missionary, an experience that helped me develop strong 
+                leadership, discipline, communication, and teamwork skills. My aspiration is to 
+                become a skilled software developer who builds meaningful digital solutions that 
+                solve real-world problems and contribute positively to society.
+            </p>
+        </section>
+
+        <section id="photo-section">
+            <h2>Student Photo</h2>
+            <img src="images/student-photo.webp" alt="Godswill Akaba" width="200">
+        </section>
+
+        <section id="course-section">
+            <h2>Web Certificate Courses</h2>
+            <div class="filter-button">
+                <button id="all-btn">All</button>
+                <button id="cse-btn">CSE</button>
+                <button id="wdd-btn">WDD</button>
+            </div>
+
+            <div id="course-container"></div>
+
+            <p>Total Credits: <span id="total-credits"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <section id="social-media">
+            <a href="https://github.com/godswillakaba" target="_blank" aria-label="Github">
+                <img src="images/github.svg" alt="Github Icon" width="30" height="30">
+            </a>
+
+            <a href="https://www.linkedin.com/in/godswillakaba" target="_blank" aria-label="LinkedIn">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon" width="30" height="30">
+            </a>
+
+            <a href="https://wa.me/233537162398" target="_blank" aria-label="WhatsApp">
+                <img src="images/whatsapp.svg" alt="WhatsApp Icon" width="30" height="30">
+            </a>
+        </section>
+
+        <section id="second-section">
+            <p>
+                &copy;<span id="currentyear"></span> Godswill Akaba | Ghana
+            </p>
+        </section>
+
+        <section id="last-section">
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </section>
+         
+    </footer>
     
 </body>
 </html>
