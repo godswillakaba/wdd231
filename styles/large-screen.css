@@ -1,3 +1,182 @@
-body {
-    font-family: 'Poppins', sans-serif;
+@media screen and (min-width: 768px){
+
+    header {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    header span {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    #nav-menu {
+        grid-column: 1 / -1;
+        display: block;
+        width: 100%;
+        justify-self: start;
+        
+    }
+
+    #nav-menu ul {
+        display: flex;
+        gap: 1rem;
+        padding: 0;
+        background-color: #112a46;
+        justify-content: flex-start;
+    }
+
+    #nav-menu li {
+        background-color: transparent;
+        margin-bottom: 0;
+        width: auto;
+        font-size: 1.1rem;
+        letter-spacing: 0.5px;
+    }
+
+    #nav-menu a {
+        color: #112a46;
+        padding: 0.5rem 1rem;
+    }
+
+    #nav-menu a:hover {
+        background-color: blue;
+    }
+
+    main {
+        display: grid;
+        /* 2fr (2 parts) and 1fr (1 part) creates the 2/3 vs 1/3 split */
+        grid-template-columns: 2fr 1fr; 
+        gap: 2rem;
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 1rem;
+        grid-auto-flow: row;
+    }
+
+    main h1 {
+        /* This ensures the 'Home' heading stays at the very top, spanning both columns */
+        grid-column: 1 / -1;
+    }
+
+    #about-section {
+        /* Explicitly tell about-section to sit in the first (2/3) column */
+        grid-column: 1;
+    }
+
+    #photo-section {
+        /* Explicitly tell photo-section to sit in the second (1/3) column */
+        grid-column: 2;
+    }
+
+    #photo-section img {
+        /* Ensure the image doesn't overflow its 1/3 container */
+        width: 100%;
+        max-width: 200px; /* Increased slightly for better visibility */
+        height: auto;
+        border-radius: 8px; /* Optional: adds a nice touch to student photos */
+    }
+
+    #course-section {
+        /* This keeps the courses spanning the full width below the two columns */
+        grid-column: 1 / -1;
+    }
+
+    .filter-button {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+
+    .filter-button button {
+        flex: 1;
+        padding: 0.6rem 1rem;
+        border: none;
+        background-color: #112a46;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .filter-button button:hover {
+        background-color: blue;
+    }
+
+    #course-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .course-card {
+        background: #112a46;
+        color: white;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        transition: 0.3s;
+    }
+
+    .course-card:hover {
+        transform: translateY(-5px);
+    }
+
+    #course-section p {
+        margin-top: 1rem;
+        font-weight: bold;
+    }
+
+    #course-container div {
+    color: #f4f4f4;
+    background-color: #2e4968;
+    }
+
+    footer {
+        color: #112a46;
+        padding: 1.5rem 1rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    footer section {
+        margin-bottom: 1rem;
+    }
+
+    #social-media {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .course-card.completed {
+        background-color: #112a46;
+        color: white;
+        font-weight: bold;
+        opacity: 1;
+    }
+
+    .course-card .not-completed{
+    background-color: #ffffff;
+    color: #112a46;
+    opacity: 0.5;
 }
+
+    
+    
+    
+}
+
+
+
+
+    

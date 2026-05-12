@@ -107,7 +107,7 @@ h2 {
 
 #photo-section img {
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -138,7 +138,7 @@ h2 {
 .filter-button button {
     padding: 0.5rem 1rem;
     border: none;
-    background-color: #3d4143;
+    background-color: #112a46;
     color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
@@ -156,8 +156,8 @@ h2 {
 
 #course-container div {
     padding: 1rem;
-    background-color: #93969a;
-    color: #000;
+    background-color: #2e4968;
+    color: #f4f4f4;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     transition: tranform 0.2s ease;
     text-align: center;
@@ -167,15 +167,6 @@ h2 {
     transform: translateY(-3px);
 }
 
-
-.completed {
-    border-left: 10px solid #0720a0;
-}
-
-.not-completed {
-    border-left: 10px solid #b4beef;
-    opacity: 0.9;
-}
 
 footer {
     margin-top: 2rem;
