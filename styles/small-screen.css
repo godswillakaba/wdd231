@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Roboto' Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.5;
     background-color: #f4f4f4;
     color: #112a46;
@@ -159,7 +159,6 @@ h2 {
     background-color: #2e4968;
     color: #f4f4f4;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: tranform 0.2s ease;
     text-align: center;
 }
 
