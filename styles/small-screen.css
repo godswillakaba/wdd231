@@ -49,7 +49,16 @@ header span {
     cursor: pointer;
     color: #112a46;
 }
+.hamburger::before {
+    content: "\2630"; /* ☰ */
+}
 
+.hamburger.show::before {
+    content: "\00D7"; /* ✖ */
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #112a46;
+}
 
 #nav-menu ul {
     list-style: none;

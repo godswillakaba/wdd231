@@ -1,0 +1,20 @@
+{
+    "familyName" : "Akaba",
+    "dateMovedIn" : "12-12-2025",
+    "numberOfHousehold" : 2,
+    "metBishopYet?" : true,
+    "familyMembers" : [
+        {
+            "name" : "Mercy Akaba",
+            "age" : 34,
+            "gender" : "F"
+        
+        }
+
+        {
+            "name" : "Christian Akaba",
+            "age" : 36,
+            "gender" : "M"
+        }
+    ]
+}
