@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accra Chamber of Commerce</title>
+    <title>Accra Chamber of Commerce | Directory Page</title>
     <link rel="icon" href="images/favicon.ico">
 
 
@@ -12,11 +12,89 @@
     <meta name="author" content="Godswill Akaba">
 
     <meta property="og:title" content="Accra Chamber of Commerce">
-    <meta property="og:url" content="">
+    <meta property="og:url" content="https://godswillakaba.github.io/wdd231/chamber/directory.html">
     <meta property="og:image" content="https://canva.link/mq5igyjvy99aksd">
     <meta property="og:description" content="Discover leading businesses, services, and networking opportunities in Accra, Ghana through the Chamber of Commerce directory. Find verified local companies, connect with industry professionals, and explore resources that support business growth in Greater Accra.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/members.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+
+
+    <link rel="stylesheet" href="styles/normal.css">
+    <link rel="stylesheet" href="styles/small-screen.css">
+    <link rel="stylesheet" href="styles/large-screen.css">
+
+
 </head>
 <body>
+    <header>
+        <div id="logo-area">
+            <img src="images/logo.png" alt="site logo" width="70" height="70">
+            <span>Accra Chamber of Commerce</span>
+        </div>
+        
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="current"><a href="directory.html">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Business Directory</h1>
+
+        <div class="buttons">
+            <button id="gridBtn">Grid View</button>
+            <button id="listBtn">List View</button>
+        </div>
+
+        <section id="directory" class="grid"></section>
+    </main>
+
+    <footer>
+        <section id="contact">
+            <h3>Accra Chamber of Commerce</h3>
+            <p>Accra, Greater Accra, Ghana</p>
+            <p>Email: <a href="mailto:info@accrachamber.com">info@accrachamber.com</a></p>
+            <p>Tel:<a href="tel:+233241234567">+233 24 123 4567</a></p>
+        </section>
+
+
+        <section id="social-media">
+            <a href="https://github.com/godswillakaba" target="_blank" aria-label="Github">
+                <img src="images/github.svg" alt="Github Icon" width="30" height="30">
+            </a>
+
+            <a href="https://www.linkedin.com/in/godswillakaba" target="_blank" aria-label="LinkedIn">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon" width="30" height="30">
+            </a>
+
+            <a href="https://wa.me/233537162398" target="_blank" aria-label="WhatsApp">
+                <img src="images/whatsapp.svg" alt="WhatsApp Icon" width="30" height="30">
+            </a>
+        </section>
+
+        <section class="footer-right">
+            <div id="second-section"> 
+                <p> &copy;<span id="currentyear"></span>| Accra Chamber of Commerce</p>
+            </div>
+
+            <div id="last-section">
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </section>
+    </footer>
+
     
 </body>
 </html>
