@@ -23,6 +23,9 @@ async function getMembers() {
         image.src = `images/${company.image}`;
         image.alt = company.companyName;
         image.width = 200;
+        image.loading = "lazy";
+        image.decoding = "async";
+
 
         const name = document.createElement("h2");
         name.textContent = company.companyName;
