@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accra Chamber of Commerce | Directory</title>
+    <title>Accra Chamber of Commerce | Home</title>
     <link rel="icon" href="images/favicon.ico">
 
 
@@ -11,8 +11,8 @@
     <meta name="description" content="Discover leading businesses, services, and networking opportunities in Accra, Ghana through the Chamber of Commerce directory. Find verified local companies, connect with industry professionals, and explore resources that support business growth in Greater Accra.">
     <meta name="author" content="Godswill Akaba">
 
-    <meta property="og:title" content="Accra Chamber of Commerce | Directory">
-    <meta property="og:url" content="https://godswillakaba.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="Accra Chamber of Commerce | Home">
+    <meta property="og:url" content="https://godswillakaba.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://godswillakaba.github.io/wdd231/chamber/images/logo.png">
     <meta property="og:description" content="Accra Chamber directory connects you to verified businesses, networking opportunities, and resources for business growth in Greater Accra.">
 
@@ -20,8 +20,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+    <script type="module" src="scripts/main.mjs"></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <!--script src="scripts/members.js" defer></script-->
     <script src="scripts/date.js" defer></script>
 
 
@@ -42,8 +43,8 @@
 
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
@@ -51,16 +52,77 @@
     </header>
 
     <main>
-        <h1>Business Directory</h1>
+        <section class="hero">
 
-        <div class="buttons">
-            <button id="gridBtn">Grid View</button>
-            <button id="listBtn">List View</button>
+            <!--img src="images/hero.webp" alt="Accra business district"-->
+
+            <!--img src="images/hero-small.webp"
+                srcset="
+                    images/hero-small.webp 600w,
+                    images/hero-large.webp 2000w
+                    "
+                    sizes="100vw"
+                    alt="Accra business district"-->
+            <img src="images/hero-small.webp" srcset=" images/hero-small.webp 600w,images/hero-large.webp 2000w"
+                sizes="(min-width: 768px) 2000px, 100vw"
+                alt="Accra business district">
+
+
+            <div class="hero-text">
+                <h1>Welcome to Accra Chamber of Commerce</h1>
+                <p>Connecting businesses and creating opportunities in Accra.</p>
+                <a href="join.html" class="cta-button">Join the Chamber</a>
+            </div>
+        </section>
+
+        <div class="info-grid">
+
+            <section class="events">
+                <h2>Current Events</h2>
+                <ul>
+                    <li>Business Networking Meetup - June 2026</li>
+                    <li>Entrepreneurs Workshop - July 2026</li>
+                    <li>Investment Forum - August 2026</li>
+                </ul>
+            </section>
+
+            <section class="current-weather">
+                <h2>Current Weather</h2>
+                <img id="weather-icon" src="" alt="Weather icon">
+                <p><span id="accra-temp"></span></p>
+                <p id="accra-desc"></p>
+                <p>High: <span id="high-temp"></span></p>
+                <p>Low: <span id="low-temp"></span></p>
+                <p>Humidity: <span id="humidity"></span></p>
+                <p>Sunrise: <span id="sunrise"></span></p>
+                <p>Sunset: <span id="sunset"></span></p>
+            </section>
+
+            <section class="weather-forecast">
+                <h2>Weather Forecast</h2>
+                <div id="forecast-box"></div>
+            </section>
+
+            <!--section class="weather-forecast" id="weather-forecast">
+            <h2>Weather Forecast</h2>
+             <p>Today: <span id="today-temp"></span></p>
+            <p>Tomorrow: <span id="tomorrow-temp"></span></p>
+            <p>Next Day: <span id="nextday-temp"></span></p>
+            </section-->
+
         </div>
 
-        <section id="directory" class="grid"></section>
+
+        <section class="spotlights">
+            <h2>Members Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
+
+
+        
     </main>
 
+    
     <footer>
         <section id="contact">
             <h2>Accra Chamber of Commerce</h2>

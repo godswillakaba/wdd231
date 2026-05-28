@@ -202,6 +202,174 @@ button:hover {
     width: auto;
 }
 
+/*End of Styles for the Directory Page*/
+
+/*Beginning of the Home Page Styles*/
+
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    background: rgba(0,0,0,0.5);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+    line-height: 1;
+    color: yellow;
+}
+
+.hero-text p {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    line-height: 1;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    background: yellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*.info-grid {
+    display: block;
+    
+}*/
+
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 1rem 0;
+}
+
+.events {
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.events h2 {
+    background: #1e0d0d;
+    color: white;
+    padding: 0.75rem;
+    margin: -1rem -1rem 1rem -1rem;
+}
+
+.events ul {
+    padding-left: 1.2rem;
+}
+
+.events li {
+    margin-bottom: 0.75rem;
+}
+
+.current-weather {
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.current-weather h2 {
+    background: #1e0d0d;
+    color: white;
+    padding: 0.75rem;
+    margin: -1rem -1rem 1rem -1rem;
+}
+
+#weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.current-weather p {
+    margin: 4px 0;
+    font-size: 0.95rem;
+    line-height: 1.3;
+}
+
+.weather-forecast {
+    background: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-forecast h2 {
+    background: #1e0d0d;
+    color: white;
+    padding: 0.75rem;
+    margin: -1rem -1rem 1rem -1rem;
+}
+
+.forecast-day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 8px;
+    background: #f9f9f9;
+    border-radius: 6px;
+}
+
+.spotlight-card {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    line-height: 1.3;
+    border: 3px solid black;
+    background-color: #caf0e8;
+}
+
+.spotlight-card h3 {
+    margin-bottom: 10px;
+}
+
+.spotlight-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+    border: 3px solid black;
+}
+
+.spotlight-card p,
+.spotlight-card a {
+    font-size: 0.9rem;
+    margin: 3px 0;
+}
+
+
+
+
+
 
 
 footer {

@@ -49,6 +49,244 @@
         grid-template-columns: repeat(3, 250px);
         justify-content: center;
     }
+    /* The End of Styles for Directory Page */
+
+
+    /* The Beginning of Home Page */
+
+     .hero {
+        position: relative;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: right;
+        color: white;
+        padding: 2rem;
+        width: 70%;
+    }
+
+    .hero-text h1 {
+        font-size: 1.2rem;
+    }
+
+    .hero-text p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        font-size: 0.9rem;
+    }
+
+    .info-grid {
+        display: block;
+    }
+
+
+
+    
+    
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 15px;
+        align-items: stretch;
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+
+    .events,
+    .current-weather,
+    .weather-forecast {
+        display: flex;
+        flex-direction: column;
+        /*background: rgb(212, 248, 220);*/
+        padding: 1rem;
+        box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.3);
+        border: 2px solid #1e0d0d; 
+    }
+
+    section.events h2,
+    section.current-weather h2,
+    section.weather-forecast h2 {
+        background: #1e0d0d;
+        color: white;
+        padding: 10px;
+        margin: -1rem -1rem 1rem -1rem;
+    }
+
+    /*#weather-icon {
+        width: 60px;
+        height: 60px;
+        display: block;
+        margin: 10px 0;
+    }*/
+
+    #forecast-box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .forecast-day {
+        background: #ffffff;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /*.forecast-day {
+        background: rgb(173, 67, 67);
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }*/
+
+    .current-weather {
+        display: grid;
+        grid-template-columns: 80px 1fr;
+        grid-template-areas:"title title" "icon info";
+        gap: 10px;
+        align-items: start;
+    }
+
+    #weather-icon {
+        width: 70px;
+        height: 70px;
+        grid-area: icon;
+        margin: 0;
+    }
+
+    .current-weather h2 {
+        grid-area: title;
+    }
+
+    .current-weather p{
+        grid-column: 2;
+        margin: 2px 0;
+        line-height: 1.2;
+    }
+
+    .current-weather span {
+        font-size: 1rem;
+        font-weight: 400;
+        color: #1e0d0d;
+        
+    }
+
+    .events h2, .current-weather h2, .weather-forecast h2 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #1e0d0d;
+    }
+
+    .events ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .events li {
+        background: #f7f7f7;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 6px;
+        font-size: 0.95rem;
+        line-height: 1.3;
+    }
+
+    .events li:hover {
+        background: #eaeaea;
+        transform: translateX(3px);
+        transition: 0.2s ease;
+    }
+
+    #spotlight-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        align-items: stretch;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .spotlight-card {
+        background: #caf0e8;
+        padding: 1rem;
+        border: 4px solid #1e0d0d; 
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .spotlights h2 {
+        margin-top: 40px;
+    }
+
+    .spotlight-card h3 {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+
+    .spotlight-content {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .spotlight-card img,
+    .spotlight-card p,
+    .spotlight-card a {
+        display: block;
+    }
+
+    .spotlight-card img {
+        width:  100px;
+        height: 100px;
+        object-fit: cover;
+        align-self: flex-start;
+    }
+
+    .spotlight-info {
+        font-size: 1rem;
+        line-height: 1.3;
+        padding-left: 30px;
+    }
+
+    .spotlight-card p,
+    .spotlight-card a {
+        margin: 2px 0;
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+
+    
+
+
+    
+
+
+
+
+
+
+
+
 
     footer {
         display: flex;
