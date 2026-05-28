@@ -5,7 +5,7 @@ const directory = document.querySelector("#directory");
 
 
 
-const url = "data/members.json";
+const url = "/wdd231/data/members.json";
 
 async function getMembers() {
     const response = await fetch(url);
