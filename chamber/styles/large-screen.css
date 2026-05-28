@@ -49,6 +49,16 @@
         grid-template-columns: repeat(3, 250px);
         justify-content: center;
     }
+
+    .list .card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
     /* The End of Styles for Directory Page */
 
 
@@ -60,8 +70,9 @@
 
     .hero img {
         width: 100%;
-        height: auto;
+        height: 500px;
         display: block;
+        
     }
 
     .hero-text {
@@ -86,15 +97,6 @@
     .cta-button {
         font-size: 0.9rem;
     }
-
-    .info-grid {
-        display: block;
-    }
-
-
-
-    
-    
 
     .info-grid {
         display: grid;
@@ -307,9 +309,9 @@
         gap: 20px;
     }
 
-    #last-section p {
+    /*#last-section p {
         margin: 0;
-    }
+    }*/
 
     #last-section,
     #second-section {
