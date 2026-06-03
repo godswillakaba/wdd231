@@ -9,7 +9,7 @@ body {
     line-height: 1.5;
     background-color: #f4f4f4;
     color: #112a46;
-    /*margin: 0;*/
+    margin: 0;
     padding: 0 1rem;
 }
 
@@ -106,9 +106,9 @@ span {
     color: #1e0d0d;
 }
 
-h1 {
+/*h1 {
     color: #1e0d0d;
-}
+}*/
 
 .buttons { 
     margin-top: 10px;
