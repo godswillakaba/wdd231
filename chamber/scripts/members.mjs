@@ -1,5 +1,5 @@
 export async function getMembers() {
-    const response = await fetch("/wdd231/data/members.json");
+    const response = await fetch("./data/members.json");
     
     if (!response.ok) {
         throw new Error("Failed to load members data");
