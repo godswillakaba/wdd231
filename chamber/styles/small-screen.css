@@ -450,9 +450,11 @@ button:hover {
     background-color: #caf0e8;
 }
 
-.aside-card h4 {
+.aside-card h3 {
     margin-bottom: 0.5rem;
-    color: red;
+    color: #1e0d0d;
+    
+    
 }
 
 .aside-card a {
@@ -508,7 +510,6 @@ button:hover {
 
 #application-details {
     margin-top: 2rem;
-    text-align: left;
     background-color: #e9f00c;
     padding: 1rem;
     border: 2px solid black;
