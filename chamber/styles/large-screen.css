@@ -308,9 +308,6 @@
         padding-right: 60px;
     }
 
-    .aside-card {
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
 
     .application-form label {
         font-size: 0.95rem;

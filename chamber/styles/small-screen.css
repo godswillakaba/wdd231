@@ -448,6 +448,7 @@ button:hover {
     padding: 0.5rem;
     border: 2px solid black;
     background-color: #caf0e8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .aside-card h3 {
