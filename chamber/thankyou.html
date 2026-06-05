@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory | Accra Chamber of Commerce</title>
+    <title>Join | Accra Chamber of Commerce</title>
     <link rel="icon" href="images/favicon.ico">
 
 
@@ -11,18 +11,20 @@
     <meta name="description" content="Accra Chamber connects you to verified businesses and growth opportunities in Greater Accra.">
     <meta name="author" content="Godswill Akaba">
 
-    <meta property="og:title" content="Directory | Accra Chamber of Commerce">
-    <meta property="og:url" content="https://godswillakaba.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="Join | Accra Chamber of Commerce">
+    <meta property="og:url" content="https://godswillakaba.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://godswillakaba.github.io/wdd231/chamber/images/logo.png">
     <meta property="og:description" content="Accra Chamber connects you to verified businesses and growth opportunities in Greater Accra.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"-->
 
+    <script type="module" src="scripts/main.mjs"></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/members.js" defer></script>
     <script src="scripts/date.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 
 
     <link rel="stylesheet" href="styles/normal.css">
@@ -43,24 +45,28 @@
         <nav id="nav-bar" class="navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li class="current"><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li class="current"><a href="join.html">Join</a></li>
                 <li><a href="#">Discover</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Business Directory</h1>
+        <section class="thankyou-content">
+            <h2>Application Received</h2>
 
-        <div class="buttons">
-            <button id="gridBtn">Grid View</button>
-            <button id="listBtn">List View</button>
-        </div>
+            <p>
+                Thank you for applying for membership with the Accra Chamber of Commerce.
+                We have received your application and will review it shortly.
+            </p>
 
-        <section id="directory" class="grid"></section>
+            <div id="application-details"></div>
+        </section>     
+        
     </main>
 
+    
     <footer>
         <section id="contact">
             <h2>Accra Chamber of Commerce</h2>
@@ -93,8 +99,6 @@
                 <p>Last Modified: <span id="lastModified"></span></p>
             </div>
         </section>
-    </footer>
-
-    
+    </footer>            
 </body>
 </html>
