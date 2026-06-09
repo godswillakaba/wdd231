@@ -312,6 +312,54 @@
         font-size: 0.95rem;
     }
 
+    /**/
+
+    /*Discover Page*/
+        #discover-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .discover-card {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        gap: 0.5rem;
+        background-color:#caf0e8;
+        border: 3px solid black;
+        padding: 0.8rem;
+    }
+    .discover-card .content {
+        display: flex;
+        gap: 0.8rem;
+        align-items: flex-start;
+    }
+
+    .discover-card img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        margin-right: 0.5rem;
+        flex-shrink: 0;
+        margin-left: 2rem;
+    }
+
+    /*.discover-card p,  
+    .discover-card address {
+        text-align: center;
+    }*/
+
+    .discover-card .text {
+        flex: 1;
+    }
+
+    .discover-card img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+
+
     
 
     

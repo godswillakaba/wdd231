@@ -546,6 +546,77 @@ dialog {
         backdrop-filter: blur(3px);
     }
 
+
+/*Discover Page*/
+#visitor-message {
+    text-align: center;
+    background: #1e0d0d;
+    color: white;
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+#discover-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
+.discover-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #caf0e8;
+    padding: 0.5rem;
+    border-radius: 3px;
+    
+}
+
+.discover-card h2 {
+    text-align: center;
+    color: #8a0000;
+}
+
+.discover-card p,  
+.discover-card address {
+    text-align: center;
+    margin: 0.2rem 0;
+    padding-bottom: 0.2rem;
+}
+
+
+.discover-card::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.discover-card button {
+    margin: 0.5rem 0 0 0;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+.discover-card figure {
+    margin: 0;
+}
+
+
+.discover-card img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border: 2px solid black;
+
+}
+/**/
+
+
 footer {
     margin-top: 2rem;
     padding: 1.5rem 1rem;

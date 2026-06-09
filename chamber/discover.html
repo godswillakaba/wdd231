@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join | Accra Chamber of Commerce</title>
+    <title>Discover | Accra Chamber of Commerce</title>
     <link rel="icon" href="images/favicon.ico">
 
 
@@ -11,24 +11,25 @@
     <meta name="description" content="Accra Chamber connects you to verified businesses and growth opportunities in Greater Accra.">
     <meta name="author" content="Godswill Akaba">
 
-    <meta property="og:title" content="Join | Accra Chamber of Commerce">
+    <meta property="og:title" content="Discover | Accra Chamber of Commerce">
     <meta property="og:url" content="https://godswillakaba.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://godswillakaba.github.io/wdd231/chamber/images/logo.png">
     <meta property="og:description" content="Accra Chamber connects you to verified businesses and growth opportunities in Greater Accra.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <script type="module" src="scripts/main.mjs"></script>
+    <!--script type="module" src="scripts/main.mjs"></script-->
+    <script type="module" src="scripts/discover.js"></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <!--script src="scripts/members.js" defer></script-->
     <script src="scripts/date.js" defer></script>
-    <script src="scripts/thankyou.js" defer></script>
 
 
     <link rel="stylesheet" href="styles/normal.css">
     <link rel="stylesheet" href="styles/small-screen.css">
+    <link rel="styleshhet" href="styles/medium-screen.css">
     <link rel="stylesheet" href="styles/large-screen.css">
 
 
@@ -46,26 +47,22 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li class="current"><a href="join.html">Join</a></li>
-                <li><a href="discover.html">Discover</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="current"><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section class="thankyou-content">
-            <h2>Application Received</h2>
 
-            <p>
-                Thank you for applying for membership with the Accra Chamber of Commerce.
-                We have received your application and will review it shortly.
-            </p>
+        <h1>Discover Accra</h1>
 
-            <div id="application-details"></div>
-        </section>     
-        
+        <section id="visitor-message"></section>
+
+        <section id="discover-cards"></section>
+           
     </main>
-
+ 
     
     <footer>
         <section id="contact">
@@ -99,6 +96,8 @@
                 <p>Last Modified: <span id="lastModified"></span></p>
             </div>
         </section>
-    </footer>            
+    </footer>
+
+    
 </body>
 </html>
