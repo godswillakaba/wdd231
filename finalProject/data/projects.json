@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "projectName": "Labadi Garden Maintainance",
+    "location": "Accra",
+    "clientType": "Hotel",
+    "service": "Landscape Design",
+    "year": "2025",
+    "image": "images/labadi.webp",
+    "description": "Complete redesign of the hotel's gardens and walkways."
+  },
+  {
+    "id": 2,
+    "projectName": "Kempinski Gardens",
+    "location": "Accra",
+    "clientType": "Hotel",
+    "service": "Garden Installation",
+    "year": "2025",
+    "image": "images/kempinski.webp",
+    "description": "Installation of premium gardens and decorative plants."
+  },
+  {
+    "id": 3,
+    "projectName": "Achimota School Green Space",
+    "location": "Accra",
+    "clientType": "School",
+    "service": "Lawn Maintenance",
+    "year": "2024",
+    "image": "images/achimota.webp",
+    "description": "Improved recreational green spaces for students."
+  },
+  {
+    "id": 4,
+    "projectName": "West Hills Mall Landscape",
+    "location": "Accra",
+    "clientType": "Mall",
+    "service": "Hardscape Construction",
+    "year": "2024",
+    "image": "images/westhills.webp",
+    "description": "Created pathways, gardens, and seating areas."
+  },
+  {
+    "id": 5,
+    "projectName": "East Legon Estate Project",
+    "location": "Accra",
+    "clientType": "Residential",
+    "service": "Landscape Design",
+    "year": "2025",
+    "image": "images/legon.webp",
+    "description": "Luxury residential landscape transformation."
+  },
+  {
+    "id": 6,
+    "projectName": "University Campus Design",
+    "location": "Kumasi",
+    "clientType": "School",
+    "service": "Garden Installation",
+    "year": "2024",
+    "image": "images/campus.webp",
+    "description": "Improved campus appearance through landscaping."
+  },
+  {
+    "id": 7,
+    "projectName": "Airport Residential Gardens",
+    "location": "Accra",
+    "clientType": "Residential",
+    "service": "Tree & Shrub Care",
+    "year": "2025",
+    "image": "images/airport.webp",
+    "description": "Tree care and landscape maintenance."
+  },
+  {
+    "id": 8,
+    "projectName": "Takoradi Beach Resort",
+    "location": "Takoradi",
+    "clientType": "Hotel",
+    "service": "Irrigation Systems",
+    "year": "2023",
+    "image": "images/takoradi.webp",
+    "description": "Installed automated irrigation systems."
+  },
+  {
+    "id": 9,
+    "projectName": "Community Park Upgrade",
+    "location": "Cape Coast",
+    "clientType": "Residential",
+    "service": "Garden Installation",
+    "year": "2024",
+    "image": "images/accra.webp",
+    "description": "Community landscaping and beautification."
+  }
+  
+]

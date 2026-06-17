@@ -1,0 +1,247 @@
+@media screen and (min-width: 768px) {
+    .hamburger {
+         display: none;
+    }
+
+    .navigation {
+        display: block;
+        position: static;
+        box-shadow: none;
+        background: transparent;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navigation ul li {
+        background: none;
+    }
+
+    .navigation ul li  a {
+        display: block;
+        padding: 0.7rem;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: bolder;
+        background: transparent;
+    }
+
+    .navigation ul li a:hover {
+        color: #ffffff;
+        background: #1e0d0d;
+    }
+
+    .navigation .current a {
+        background-color: #ffffff;
+        color: #000;
+    }
+
+
+
+    span {
+        font-size: 1.5rem;  
+    }
+
+    .hero img {
+    height: 100vh;
+    }
+
+    .hero-text {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .cta-button {
+        padding: 10px 24px;
+        font-size: 1.2rem;
+        border-radius: 18px;
+    }
+    
+    .about {
+        max-width: 1000px;
+       
+    }
+
+    .service-cards {
+        display: grid;
+
+        grid-template-columns:
+            repeat(3, 1fr);
+
+        gap: 2rem;
+        max-width: 1200px;
+        margin: 2rem auto;
+    }
+
+    .service-cards article {
+        padding: 1.5rem;
+        box-shadow: 0 2px 10px rgba(0,0,0,.1);
+        transition: transform .3s ease;
+    }
+
+    .service-cards article:hover {
+        transform: translateY(-5px);
+    }
+
+
+    /*Project.html styles below*/
+
+    #projects-container {
+        max-width: 1200px;
+
+        margin: 2rem auto;
+
+        display: grid;
+
+        grid-template-columns:
+            repeat(3, 1fr);
+
+        gap: 2rem;
+    }
+
+    .project-card {
+        transition:
+            transform .3s ease,
+            box-shadow .3s ease;
+    }
+
+    .project-card:hover {
+        transform: translateY(-5px);
+
+        box-shadow:
+            0 6px 20px rgba(0,0,0,.15);
+    }
+
+    .filters {
+        max-width: 1200px;
+
+        margin: 0 auto;
+    }
+
+    #project-modal {
+        max-width: 600px;
+        line-height: 0.5;
+    }
+
+    /*Service page below*/
+
+    .services-grid {
+        max-width: 1200px;
+
+        margin: 2rem auto;
+
+        display: grid;
+
+        grid-template-columns:
+            repeat(3, 1fr);
+
+        gap: 2rem;
+    }
+
+    .service-card {
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+    }
+
+    .service-card:hover {
+        transform: translateY(-5px);
+
+        box-shadow:
+            0 6px 20px rgba(0,0,0,.15);
+    }
+
+    .service-card img {
+        height: 250px;
+    }
+
+
+    /*Contact Us below*/
+    .location,
+    .quote-form-section {
+        max-width: 1000px;
+
+        margin: 0 auto;
+    }
+
+    .map-container iframe {
+        height: 450px;
+    }
+
+    .quote-form-section form {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .quote-form-section input:focus,
+    .quote-form-section select:focus,
+    .quote-form-section textarea:focus {
+        outline: 2px solid #0d3b66;
+    }
+
+
+    /*Thank you*/
+    .thank-you,
+    .submitted-information {
+        max-width: 900px;
+
+        margin: 0 auto;
+    }
+
+    .submission-details {
+        padding: 2rem;
+    }
+
+    .submitted-information h2 {
+        text-align: center;
+
+        color: #0d3b66;
+
+        margin-bottom: 1rem;
+    }
+
+    .submitted-information {
+        text-align: center;
+        color: #1e0d0d;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .mid-elements{
+        display: flex;
+        gap: 10rem;
+    }
+
+}
