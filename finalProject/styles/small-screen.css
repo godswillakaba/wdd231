@@ -233,13 +233,10 @@ span {
 .filters button {
     padding: .7rem 1rem;
     margin: .3rem;
-
     border: none;
     border-radius: 5px;
-
     background-color: #0d3b66;
     color: white;
-
     cursor: pointer;
 }
 
@@ -257,7 +254,6 @@ span {
     line-height: 1;
     text-align: center;
     background: white;
-    border: 3px solid wheat;
     overflow: hidden;
     box-shadow: 4px 4px 8px rgba(12, 8, 8, 0.333);
 }
@@ -265,7 +261,6 @@ span {
 .project-card img {
     width: 100%;
     height: 220px;
-
     object-fit: cover;
 }
 
@@ -280,15 +275,11 @@ span {
 
 .details-btn {
     margin: 1rem;
-
     padding: .75rem 1rem;
-
     border: none;
     border-radius: 5px;
-
     background-color: #0d3b66;
     color: white;
-
     cursor: pointer;
 }
 
@@ -389,25 +380,19 @@ span {
 .map-container iframe {
     width: 100%;
     height: 300px;
-
     border: 0;
-
     border-radius: 10px;
 }
 
 .contact-details {
     background-color: #f5f5f5;
-
     padding: 1rem;
-
     border-radius: 10px;
-
     margin-bottom: 2rem;
 }
 
 .contact-details h3 {
     color: #0d3b66;
-
     margin-bottom: .75rem;
 }
 
@@ -428,7 +413,6 @@ span {
 .quote-form-section label {
     display: flex;
     flex-direction: column;
-
     font-weight: bold;
 }
 
@@ -436,27 +420,18 @@ span {
 .quote-form-section select,
 .quote-form-section textarea {
     margin-top: .4rem;
-
     padding: .8rem;
-
     border: 1px solid #ccc;
-
     border-radius: 6px;
-
     font-size: 1rem;
 }
 
 .quote-form-section input[type="submit"] {
     background-color: #0d3b66;
-
     color: white;
-
     border: none;
-
     cursor: pointer;
-
     font-weight: bold;
-
     transition: .3s;
 }
 
@@ -488,15 +463,12 @@ span {
 
 .submission-details {
     background-color: #f5f5f5;
-
     border-radius: 10px;
-
     padding: 1.5rem;
-
     margin-top: 1rem;
-
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 .submission-details span {
     color: #000;
     font-size: 1rem;
@@ -504,38 +476,22 @@ span {
 
 .submission-details p {
     margin-bottom: 1rem;
-    word-wrap: break-word;
-    
+    word-wrap: break-word;   
 }
 
 .submitted-information .btn {
     display: inline-block;
-
     margin-top: 1.5rem;
-
     padding: .8rem 1.5rem;
-
     background-color: #0d3b66;
-
     color: white;
-
     text-decoration: none;
-
     border-radius: 6px;
 }
 
 .submitted-information .btn:hover {
     background-color: #145da0;
 }
-
-
-
-
-
-
-
-
-
 
 
 footer {
